@@ -1,0 +1,55 @@
+.section-two {
+    min-height: 472px;
+    padding: 69px 0 95px 0;
+    background-color: #f6f6f6;
+    &__header {
+        color: #0d0d0d;
+        font-family: "Museo Sans";
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__advantages {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top: 65px;
+    }
+
+    &__advantage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        width: 300px;
+
+        color: #0d0d0d;
+        font-family: "Museo Sans";
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+
+        span {
+            margin-top: 38px;
+            margin-bottom: 26px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        a.love {
+            font-family: "Museo Sans";
+            font-size: 14px;
+            font-weight: 300;
+            color: #ff0000;
+            text-decoration: underline;
+
+            &:hover {
+                color: $main-color-hover;
+            }
+        }
+    }
+}

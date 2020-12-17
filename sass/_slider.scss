@@ -1,0 +1,31 @@
+.slider {
+    position: relative;
+    width: 750px;
+    margin: 0 auto;
+
+    .slide:nth-child(3) img {
+        position: relative;
+        top: 70px;
+    }
+
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background-color: #fff;
+
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+
+    .slick-prev {
+        left: -66px;
+    }
+
+    .slick-next {
+        right: -66px;
+    }
+}

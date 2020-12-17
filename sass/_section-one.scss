@@ -1,0 +1,76 @@
+.section-one {
+    padding: 24px 0 93px 0;
+    min-height: 650px;
+    background: url("../images/section-one-bg.jpg") center center/cover no-repeat;
+
+    &__wrapper {
+        margin-top: 91px;
+    }
+
+    &__header {
+        color: #ffffff;
+        font-family: "Museo Sans";
+        font-size: 42px;
+        font-weight: 700;
+        text-align: right;
+        text-transform: uppercase;
+    }
+
+    &__subheader {
+        color: #ffffff;
+        font-family: "Museo Sans";
+        font-size: 24px;
+        font-weight: 500;
+        text-align: right;
+        text-transform: uppercase;
+    }
+
+    &__pluses {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        margin-top: 66px;
+    }
+
+    &__plus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        margin-left: 60px;
+        width: 110px;
+
+        color: #ffffff;
+        font-family: "Museo Sans";
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+
+        img {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__catalog {
+        margin-top: 18px;
+        color: #ffffff;
+        font-family: "Museo Sans";
+        font-size: 16px;
+        font-weight: 500;
+        text-align: right;
+
+        a {
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: underline;
+
+            &:hover {
+                color: #efefef;
+            }
+        }
+
+    }
+
+}
