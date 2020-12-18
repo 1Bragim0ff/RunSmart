@@ -1,0 +1,157 @@
+.cards {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 59px;
+
+    &_active {
+        display: flex;
+    }
+
+    .card {
+        width: 300px;
+        height: 460px;
+        border: 2px solid #e8e8e8;
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 0 10px 20px 10px;
+        overflow: hidden;
+
+        .card__inner {
+            display: flex;
+            justify-content: space-between;
+            width: calc(200% + 40px);
+            transition: 0.5s all;
+
+            &_active {
+                transform: translateX(-52%);
+            }
+
+            .card__list {
+                position: relative;
+                width: 50%;
+                padding-left: 0;
+                margin-bottom: 0;
+                margin-left: 20px;
+                list-style-type: none;
+
+                color: #555555;
+                font-family: "Museo Sans";
+                font-size: 14px;
+                font-weight: 300;
+                text-align: left;
+
+                li {
+                    position: relative;
+                    margin-bottom: 25px;
+                }
+
+                li:before {
+                    content: '';
+                    position: absolute;
+                    left: -14px;
+                    top: 7px;
+                    display: block;
+                    width: 5px;
+                    height: 5px;
+                    background-color: $main-color;
+                }
+
+                .card__back {
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    margin-top: 17px;
+                    display: block;
+                    color: #c70101;
+                    font-family: "Museo Sans";
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-decoration: underline;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+
+                .card__back:hover {
+                    color: $main-color-hover;
+                }
+            }
+        }
+
+
+
+        .card__content {
+            width: 50%;
+            margin-right: 20px;
+
+            .card__img {
+                display: block;
+                margin: 0 auto;
+                height: 200px;
+            }
+
+            .card__header {
+                margin-top: 20px;
+                color: #0d0d0d;
+                font-family: "Museo Sans";
+                font-size: 16px;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            .card__subscription {
+                margin-top: 16px;
+                color: #0d0d0d;
+                font-family: "Museo Sans";
+                font-size: 14px;
+                font-weight: 300;
+                text-align: center;
+            }
+
+            .card__more {
+                margin-top: 17px;
+                display: block;
+                color: #c70101;
+                font-family: "Museo Sans";
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: underline;
+                text-transform: uppercase;
+                text-align: center;
+            }
+
+            .card__more:hover {
+                color: $main-color-hover;
+            }
+
+        }
+
+        .card__footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .card__oldprice {
+                color: #555555;
+                font-family: "Museo Sans";
+                font-size: 14px;
+                font-weight: 300;
+                text-align: left;
+                text-decoration: line-through;
+            }
+
+            .card__price {
+                color: #050505;
+                font-family: "Museo Sans";
+                font-size: 20px;
+                font-weight: 700;
+                text-align: left;
+            }
+        }
+    }
+}

@@ -21,6 +21,10 @@
         }
     }
 
+    .slick-prev:focus, .slick-next:focus {
+        outline: none;
+    }
+
     .slick-prev {
         left: -66px;
     }

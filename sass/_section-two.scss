@@ -40,16 +40,13 @@
             font-weight: 700;
         }
 
-        a.love {
+        span.love {
             font-family: "Museo Sans";
             font-size: 14px;
             font-weight: 300;
             color: #ff0000;
             text-decoration: underline;
 
-            &:hover {
-                color: $main-color-hover;
-            }
         }
     }
 }
