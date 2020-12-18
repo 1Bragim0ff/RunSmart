@@ -87,6 +87,7 @@
         .card__content {
             width: 50%;
             margin-right: 20px;
+            text-align: center;
 
             .card__img {
                 display: block;
@@ -114,14 +115,13 @@
 
             .card__more {
                 margin-top: 17px;
-                display: block;
+                display: inline-block;
                 color: #c70101;
                 font-family: "Museo Sans";
                 font-size: 14px;
                 font-weight: 500;
                 text-decoration: underline;
                 text-transform: uppercase;
-                text-align: center;
             }
 
             .card__more:hover {
