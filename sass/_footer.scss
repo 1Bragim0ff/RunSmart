@@ -1,0 +1,55 @@
+.footer {
+    position: relative;
+    height: 630px;
+    color: #ffffff;
+    text-align: center;
+
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 480px;
+        height: 270px;
+        padding: 50px 69px 60px 69px;
+        background-color: $main-color;
+    }
+
+    &__address {
+        font-family: "Museo Sans";
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    &__phone {
+        color: #ffffff;
+        font-family: "Museo Sans";
+        font-size: 20px;
+        font-weight: 700;
+
+        text-decoration: none;
+        &:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    }
+
+    &__social {
+        margin-top: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            margin: 0 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border: 2px solid #ffffff;
+            border-radius: 100%;
+        }
+    }
+}
