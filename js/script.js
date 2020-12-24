@@ -25,6 +25,21 @@ $(document).ready(function(){
 
     toggleSlide('.card__more');
     toggleSlide('.card__back');
+
+    // Modal
+
+    $('[data-modal=consultation]').on('click', function() {
+        $('.overlay, #consultation').fadeIn();
+    });
+
+    $('.modal__close').on('click', function() {
+        $('.overlay, #consultation, #order , #successfully').fadeOut();
+    });
+
+    $('.button_card').each(function(i) {
+        $(this).on('click', function() {
+            $('#order .modal__subtitle').text($('.card__header').eq(i).text());
+            $('.overlay, #order').fadeIn();
+        });
+    });
 });
-
-
