@@ -42,4 +42,33 @@ $(document).ready(function(){
             $('.overlay, #order').fadeIn();
         });
     });
+
+    function validateForms(form) {
+        $(form).validate({
+            rules: {
+                name: "required",
+                phone: "required",
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                name: "Пожалуйста, введите своё имя",
+                phone: "Пожалуйста, введите свой номер телефона",
+                email: {
+                    required: "Пожалуйста, введите свою почту",
+                    email: "Неправильно введен адрес почты"
+                }
+            },
+            errorPlacement: function(error, element) {
+                error.insertBefore(element);
+            }
+
+        });
+    };
+
+    validateForms('#consultation form');
+    validateForms('#consultation-form');
+    validateForms('#order form');
 });

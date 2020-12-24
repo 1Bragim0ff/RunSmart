@@ -29,4 +29,21 @@
     &_mt25 {
         margin-top: 25px;
     }
+
+    input.error {
+        border: 1px solid red;
+    }
+
+    label.error {
+        font-family: "Museo Sans";
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 2px;
+    }
+}
+
+#consultation-form {
+    label.error {
+        color: #fff;
+    }
 }
