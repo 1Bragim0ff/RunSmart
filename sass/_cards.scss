@@ -36,13 +36,18 @@
                 padding-left: 0;
                 margin-bottom: 0;
                 margin-left: 20px;
-                list-style-type: none;
+
 
                 color: #555555;
                 font-family: "Museo Sans";
                 font-size: 14px;
                 font-weight: 300;
                 text-align: left;
+
+                ul {
+                    padding-left: 0rem;
+                    list-style-type: none;
+                }
 
                 li {
                     position: relative;

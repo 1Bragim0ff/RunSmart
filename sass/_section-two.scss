@@ -48,5 +48,18 @@
             text-decoration: underline;
 
         }
+
+        .heartbeat {
+            // animation: heartbeat 2s infinite ease paused;
+            animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
+
+
 }

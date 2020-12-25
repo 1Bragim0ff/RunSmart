@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>RunSmart - подбор пульсометра</title>
 </head>
@@ -36,8 +37,8 @@
 
             <div class="section-one__wrapper">
                 <div class="col-6 offset-5">
-                    <div class="section-one__header">Подбор пульсометра</div>
-                    <div class="section-one__subheader">с учётом Вашего уровня подготовки</div>
+                    <h1 class="section-one__header">Подбор пульсометра</h1>
+                    <h2 class="section-one__subheader">с учётом Вашего уровня подготовки</h2>
                 </div>
 
                 <div class="col-5 offset-6">
@@ -86,7 +87,7 @@
 
 
                 <div class="section-two__advantage">
-                    <img src="images/icons/section-two-heart.png" alt="cup">
+                    <img class="heartbeat" src="images/icons/section-two-heart.png" alt="cup">
 
                     <span>Заботимся о здоровье</span>
 
@@ -134,7 +135,7 @@
         </div>
     </section>
 
-    <section class="section-four">
+    <div class="section-four">
         <div class="container">
             <div class="slider">
                 <div class="slide"><img src="images/icons/section-four-slider-1.png" alt="slide-1"></div>
@@ -142,12 +143,12 @@
                 <div class="slide"><img src="images/icons/section-four-slider-3.png" alt="slide-3"></div>
             </div>
         </div>
-    </section>
+    </div>
 
 
     <section class="section-five" id="catalog">
         <div class="container">
-            <div class="section-five__header">Каталог пульсометров</div>
+            <h2 class="section-five__header">Каталог пульсометров</h2>
             <ul class="tabs">
                 <li class="tab tab_active">
                     <div>Для фитнеса</div>
@@ -169,14 +170,16 @@
                             <a href="#" class="card__more">Подробнее</a>
                         </div>
 
-                        <ul class="card__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-
+                        <div class="card__list">
+                            <ul>
+                                <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                                <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                                <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                                <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            </ul>
                             <a href="#" class="card__back">Назад</a>
-                        </ul>
+                        </div>
+
                     </div>
                     <hr>
                     <div class="card__footer">
@@ -196,14 +199,15 @@
                             <a href="#" class="card__more">Подробнее</a>
                         </div>
 
-                        <ul class="card__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-
+                        <div class="card__list">
+                            <ul>
+                                <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                                <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                                <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                                <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            </ul>
                             <a href="#" class="card__back">Назад</a>
-                        </ul>
+                        </div>
                     </div>
                     <hr>
                     <div class="card__footer">
@@ -223,14 +227,15 @@
                             <a href="#" class="card__more">Подробнее</a>
                         </div>
 
-                        <ul class="card__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-
+                        <div class="card__list">
+                            <ul>
+                                <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                                <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                                <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                                <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            </ul>
                             <a href="#" class="card__back">Назад</a>
-                        </ul>
+                        </div>
                     </div>
                     <hr>
                     <div class="card__footer">
@@ -250,14 +255,15 @@
                             <a href="#" class="card__more">Подробнее</a>
                         </div>
 
-                        <ul class="card__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-
+                        <div class="card__list">
+                            <ul>
+                                <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                                <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                                <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                                <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            </ul>
                             <a href="#" class="card__back">Назад</a>
-                        </ul>
+                        </div>
                     </div>
                     <hr>
                     <div class="card__footer">
@@ -277,14 +283,15 @@
                             <a href="#" class="card__more">Подробнее</a>
                         </div>
 
-                        <ul class="card__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-
+                        <div class="card__list">
+                            <ul>
+                                <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                                <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                                <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                                <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            </ul>
                             <a href="#" class="card__back">Назад</a>
-                        </ul>
+                        </div>
                     </div>
                     <hr>
                     <div class="card__footer">
@@ -304,70 +311,15 @@
                             <a href="#" class="card__more">Подробнее</a>
                         </div>
 
-                        <ul class="card__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-
+                        <div class="card__list">
+                            <ul>
+                                <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                                <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                                <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                                <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            </ul>
                             <a href="#" class="card__back">Назад</a>
-                        </ul>
-                    </div>
-                    <hr>
-                    <div class="card__footer">
-                        <div class="card__prices">
-                            <div class="card__oldprice">4750 руб.</div>
-                            <div class="card__price">4500 руб.</div>
                         </div>
-                        <button class="button button_card">Купить</button>
-                    </div>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="card">
-                    <div class="card__inner">
-                        <div class="card__content card__content_active">
-                            <img src="images/icons/section-five-card-icon.png" alt="" class="card__img">
-                            <div class="card__header">Пульсометр Polar FT1</div>
-                            <div class="card__subscription">Для первых шагов в тренировках, основанных на сердечном ритме</div>
-                            <a href="#" class="card__more">Подробнее</a>
-                        </div>
-
-                        <ul class="card__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-
-                            <a href="#" class="card__back">Назад</a>
-                        </ul>
-                    </div>
-                    <hr>
-                    <div class="card__footer">
-                        <div class="card__prices">
-                            <div class="card__oldprice">4750 руб.</div>
-                            <div class="card__price">4500 руб.</div>
-                        </div>
-                        <button class="button button_card">Купить</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__inner">
-                        <div class="card__content card__content_active">
-                            <img src="images/icons/section-five-card-icon.png" alt="" class="card__img">
-                            <div class="card__header">Пульсометр Polar FT1</div>
-                            <div class="card__subscription">Для первых шагов в тренировках, основанных на сердечном ритме</div>
-                            <a href="#" class="card__more">Подробнее</a>
-                        </div>
-
-                        <ul class="card__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-
-                            <a href="#" class="card__back">Назад</a>
-                        </ul>
                     </div>
                     <hr>
                     <div class="card__footer">
@@ -389,14 +341,15 @@
                             <a href="#" class="card__more">Подробнее</a>
                         </div>
 
-                        <ul class="card__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-
+                        <div class="card__list">
+                            <ul>
+                                <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                                <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                                <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                                <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            </ul>
                             <a href="#" class="card__back">Назад</a>
-                        </ul>
+                        </div>
                     </div>
                     <hr>
                     <div class="card__footer">
@@ -416,14 +369,45 @@
                             <a href="#" class="card__more">Подробнее</a>
                         </div>
 
-                        <ul class="card__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-
+                        <div class="card__list">
+                            <ul>
+                                <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                                <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                                <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                                <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            </ul>
                             <a href="#" class="card__back">Назад</a>
-                        </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card__footer">
+                        <div class="card__prices">
+                            <div class="card__oldprice">4750 руб.</div>
+                            <div class="card__price">4500 руб.</div>
+                        </div>
+                        <button class="button button_card">Купить</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="card__inner">
+                        <div class="card__content card__content_active">
+                            <img src="images/icons/section-five-card-icon.png" alt="" class="card__img">
+                            <div class="card__header">Пульсометр Polar FT1</div>
+                            <div class="card__subscription">Для первых шагов в тренировках, основанных на сердечном ритме</div>
+                            <a href="#" class="card__more">Подробнее</a>
+                        </div>
+
+                        <div class="card__list">
+                            <ul>
+                                <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                                <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                                <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                                <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            </ul>
+                            <a href="#" class="card__back">Назад</a>
+                        </div>
                     </div>
                     <hr>
                     <div class="card__footer">
@@ -443,14 +427,43 @@
                             <a href="#" class="card__more">Подробнее</a>
                         </div>
 
-                        <ul class="card__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-
+                        <div class="card__list">
+                            <ul>
+                                <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                                <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                                <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                                <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            </ul>
                             <a href="#" class="card__back">Назад</a>
-                        </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card__footer">
+                        <div class="card__prices">
+                            <div class="card__oldprice">4750 руб.</div>
+                            <div class="card__price">4500 руб.</div>
+                        </div>
+                        <button class="button button_card">Купить</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__inner">
+                        <div class="card__content card__content_active">
+                            <img src="images/icons/section-five-card-icon.png" alt="" class="card__img">
+                            <div class="card__header">Пульсометр Polar FT1</div>
+                            <div class="card__subscription">Для первых шагов в тренировках, основанных на сердечном ритме</div>
+                            <a href="#" class="card__more">Подробнее</a>
+                        </div>
+
+                        <div class="card__list">
+                            <ul>
+                                <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                                <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                                <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                                <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            </ul>
+                            <a href="#" class="card__back">Назад</a>
+                        </div>
                     </div>
                     <hr>
                     <div class="card__footer">
@@ -467,10 +480,10 @@
 
     <section class="section-six">
         <div class="container">
-            <div class="section-six__header">Отзывы клиентов</div>
+            <h2 class="section-six__header">Отзывы клиентов</h2>
 
             <div class="section-six__inner">
-                <div class="row">
+                <div class="row" data-aos="fade-up" data-aos-duration="1000">
                     <div class="col-2 offset-1">
                         <img src="images/icons/section-six-img-1.png" alt="" class="section-six__img">
                     </div>
@@ -491,7 +504,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row" data-aos="fade-up" data-aos-duration="2000">
                     <div class="col-2 offset-1">
                         <img src="images/icons/section-six-img-2.png" alt="" class="section-six__img">
                     </div>
@@ -511,7 +524,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row" data-aos="fade-up" data-aos-duration="3000">
                     <div class="col-2 offset-1">
                         <img src="images/icons/section-six-img-3.png" alt="" class="section-six__img">
                     </div>
@@ -539,7 +552,7 @@
     <footer class="footer">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.4025097136923!2d37.643594957626995!3d55.7688808267719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1608306107047!5m2!1sru!2sru"
-            width="100%" height="630" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            style="border:0;width:100%;height:630px" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
         <div class="footer__info">
             <address class="footer__address">Москва, Мясницкий проезд, д.3с1</address>
@@ -592,12 +605,13 @@
         <img src="images/icons/pageUp.svg" alt="pageUp">
     </a>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="libs/slick/slick.min.js"></script>
-    <script type="text/javascript" src="libs/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="./libs/jquery.maskedinput.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="libs/jquery.validate.min.js"></script>
+    <script src="libs/jquery.maskedinput.min.js"></script>
+    <script src="libs/aos.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
