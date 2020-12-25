@@ -4,6 +4,4 @@
 
 :open_file_folder: Использованные технологии: **HTML, CSS, SASS, Gulp, JS, Slick Slider, Bootstrap, JQuery**
 
-:hourglass: Сайт находится на стадии разработки
-
 ![image](fullscreen.png)
